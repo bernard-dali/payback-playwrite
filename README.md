@@ -3,7 +3,7 @@
 
 ## Description
 
-This demo show how to bypass captcha recaptcha v2 on www.payback.de/login. The example using browser emulation with [playwright.dev](https://playwright.dev/) and [2captcha-ts](https://www.npmjs.com/package/2captcha-ts) for interact with 2captcha API
+This demo show how to bypass captcha recaptcha v2 on www.payback.de/login. The example using browser emulation with [Playwright](https://playwright.dev/) and [2captcha-ts](https://www.npmjs.com/package/2captcha-ts) for interact with 2captcha API
 
 After successfully obtaining the token, I also use it in the found callback function `onCaptchaFinished(res.data)` for bypass captcha
 
